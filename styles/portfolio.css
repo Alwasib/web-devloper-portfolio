@@ -128,3 +128,32 @@ main section{
     gap: 24px;
    
 }
+
+.resume_container{
+    display: flex;
+    gap: 24px;
+}
+.resume_title{
+    font-size: 30px;
+    font-weight: 800;
+}
+.resume_column_title{
+    font-size: 28px;
+    font-weight: 700;
+}
+.experience_title{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.experience_sub_title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0px;
+}
+.experience_description, .experience_sub_title{
+    color: #757575;
+}
+.top{
+    margin-top: 40px;
+}
