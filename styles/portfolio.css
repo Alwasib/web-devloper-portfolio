@@ -20,6 +20,18 @@
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
+.section_title{
+    font-size: 32px;
+    font-weight: bold;
+    color: #181818;
+}
+.section_description{
+    font-size: 18px;
+    color: #757575;
+}
+.second_background{
+    background-color: #fff8f3;
+}
 .text_r{
     color: #FD6E0A;
 }
@@ -71,4 +83,26 @@ nav ul li a{
 }
 .bannerprofile{
     width: 580px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+     padding: 130px 150px;
+     text-align: center;
+     margin-top: 130px;
+}
+.about_items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item_description{
+    font-weight: 600;
 }
